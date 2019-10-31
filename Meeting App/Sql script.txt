@@ -1,0 +1,6 @@
+﻿create database meeting
+create table modelokale(id int PRIMARY KEY, navn varchar(255), lokation varchar(255), pladsantal int)
+INSERT INTO modelokale (id, navn, lokation, pladsantal) values(0, 'kemi', '3-7',33)
+INSERT INTO modelokale (id, navn, lokation, pladsantal) values(1, 'tysk', '3-8',199)
+INSERT INTO modelokale (id, navn, lokation, pladsantal) values(2, 'mat', '2-2',5)
+select * from modelokale
